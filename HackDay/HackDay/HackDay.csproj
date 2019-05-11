@@ -53,12 +53,6 @@
     <Compile Include="HackDayGame.Designer.cs">
       <DependentUpon>HackDayGame.cs</DependentUpon>
     </Compile>
-    <Compile Include="HackDayGameForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HackDayGameForm.Designer.cs">
-      <DependentUpon>HackDayGameForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="HackDayForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,9 +75,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="HackDayGame.resx">
       <DependentUpon>HackDayGame.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HackDayGameForm.resx">
-      <DependentUpon>HackDayGameForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HackDayForm.resx">
       <DependentUpon>HackDayForm.cs</DependentUpon>
