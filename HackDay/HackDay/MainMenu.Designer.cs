@@ -32,11 +32,12 @@
             this.Btn_Instructions = new System.Windows.Forms.Button();
             this.Lbl_EnterName = new System.Windows.Forms.Label();
             this.TxtBox_Name = new System.Windows.Forms.TextBox();
-            this.Btn_RoundsNumber5 = new System.Windows.Forms.Button();
-            this.Btn_RoundsNumber3 = new System.Windows.Forms.Button();
-            this.Lbl_RoundsNumber = new System.Windows.Forms.Label();
-            this.Btn_RoundsNumber1 = new System.Windows.Forms.Button();
+            this.Btn_PointsNumber5 = new System.Windows.Forms.Button();
+            this.Btn_PointsNumber3 = new System.Windows.Forms.Button();
+            this.Lbl_PointsNumber = new System.Windows.Forms.Label();
+            this.Btn_PointsNumber1 = new System.Windows.Forms.Button();
             this.Lbl_Title = new System.Windows.Forms.Label();
+            this.Lbl_Author = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Btn_Quit
@@ -85,54 +86,54 @@
             this.TxtBox_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtBox_Name.TextChanged += new System.EventHandler(this.TxtBox_Name_TextChanged);
             // 
-            // Btn_RoundsNumber5
+            // Btn_PointsNumber5
             // 
-            this.Btn_RoundsNumber5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btn_RoundsNumber5.Font = new System.Drawing.Font("Caviar Dreams", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Btn_RoundsNumber5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_RoundsNumber5.Location = new System.Drawing.Point(419, 262);
-            this.Btn_RoundsNumber5.Name = "Btn_RoundsNumber5";
-            this.Btn_RoundsNumber5.Size = new System.Drawing.Size(80, 80);
-            this.Btn_RoundsNumber5.TabIndex = 4;
-            this.Btn_RoundsNumber5.Text = "5";
-            this.Btn_RoundsNumber5.UseVisualStyleBackColor = false;
-            this.Btn_RoundsNumber5.Click += new System.EventHandler(this.Btn_RoundsNumber5_Click);
+            this.Btn_PointsNumber5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Btn_PointsNumber5.Font = new System.Drawing.Font("Caviar Dreams", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Btn_PointsNumber5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_PointsNumber5.Location = new System.Drawing.Point(419, 262);
+            this.Btn_PointsNumber5.Name = "Btn_PointsNumber5";
+            this.Btn_PointsNumber5.Size = new System.Drawing.Size(80, 80);
+            this.Btn_PointsNumber5.TabIndex = 4;
+            this.Btn_PointsNumber5.Text = "5";
+            this.Btn_PointsNumber5.UseVisualStyleBackColor = false;
+            this.Btn_PointsNumber5.Click += new System.EventHandler(this.Btn_RoundsNumber5_Click);
             // 
-            // Btn_RoundsNumber3
+            // Btn_PointsNumber3
             // 
-            this.Btn_RoundsNumber3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btn_RoundsNumber3.Font = new System.Drawing.Font("Caviar Dreams", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Btn_RoundsNumber3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_RoundsNumber3.Location = new System.Drawing.Point(259, 262);
-            this.Btn_RoundsNumber3.Name = "Btn_RoundsNumber3";
-            this.Btn_RoundsNumber3.Size = new System.Drawing.Size(80, 80);
-            this.Btn_RoundsNumber3.TabIndex = 3;
-            this.Btn_RoundsNumber3.Text = "3";
-            this.Btn_RoundsNumber3.UseVisualStyleBackColor = false;
-            this.Btn_RoundsNumber3.Click += new System.EventHandler(this.Btn_RoundsNumber3_Click);
+            this.Btn_PointsNumber3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Btn_PointsNumber3.Font = new System.Drawing.Font("Caviar Dreams", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Btn_PointsNumber3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_PointsNumber3.Location = new System.Drawing.Point(259, 262);
+            this.Btn_PointsNumber3.Name = "Btn_PointsNumber3";
+            this.Btn_PointsNumber3.Size = new System.Drawing.Size(80, 80);
+            this.Btn_PointsNumber3.TabIndex = 3;
+            this.Btn_PointsNumber3.Text = "3";
+            this.Btn_PointsNumber3.UseVisualStyleBackColor = false;
+            this.Btn_PointsNumber3.Click += new System.EventHandler(this.Btn_RoundsNumber3_Click);
             // 
-            // Lbl_RoundsNumber
+            // Lbl_PointsNumber
             // 
-            this.Lbl_RoundsNumber.Font = new System.Drawing.Font("Caviar Dreams", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Lbl_RoundsNumber.Location = new System.Drawing.Point(11, 210);
-            this.Lbl_RoundsNumber.Name = "Lbl_RoundsNumber";
-            this.Lbl_RoundsNumber.Size = new System.Drawing.Size(580, 25);
-            this.Lbl_RoundsNumber.TabIndex = 11;
-            this.Lbl_RoundsNumber.Text = "Choose number of rounds you want to play";
-            this.Lbl_RoundsNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Lbl_PointsNumber.Font = new System.Drawing.Font("Caviar Dreams", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Lbl_PointsNumber.Location = new System.Drawing.Point(11, 210);
+            this.Lbl_PointsNumber.Name = "Lbl_PointsNumber";
+            this.Lbl_PointsNumber.Size = new System.Drawing.Size(580, 25);
+            this.Lbl_PointsNumber.TabIndex = 11;
+            this.Lbl_PointsNumber.Text = "Choose number of points needed to win the game";
+            this.Lbl_PointsNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Btn_RoundsNumber1
+            // Btn_PointsNumber1
             // 
-            this.Btn_RoundsNumber1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btn_RoundsNumber1.Font = new System.Drawing.Font("Caviar Dreams", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Btn_RoundsNumber1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_RoundsNumber1.Location = new System.Drawing.Point(89, 262);
-            this.Btn_RoundsNumber1.Name = "Btn_RoundsNumber1";
-            this.Btn_RoundsNumber1.Size = new System.Drawing.Size(80, 80);
-            this.Btn_RoundsNumber1.TabIndex = 2;
-            this.Btn_RoundsNumber1.Text = "1";
-            this.Btn_RoundsNumber1.UseVisualStyleBackColor = false;
-            this.Btn_RoundsNumber1.Click += new System.EventHandler(this.Btn_RoundsNumber1_Click);
+            this.Btn_PointsNumber1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Btn_PointsNumber1.Font = new System.Drawing.Font("Caviar Dreams", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Btn_PointsNumber1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_PointsNumber1.Location = new System.Drawing.Point(89, 262);
+            this.Btn_PointsNumber1.Name = "Btn_PointsNumber1";
+            this.Btn_PointsNumber1.Size = new System.Drawing.Size(80, 80);
+            this.Btn_PointsNumber1.TabIndex = 2;
+            this.Btn_PointsNumber1.Text = "1";
+            this.Btn_PointsNumber1.UseVisualStyleBackColor = false;
+            this.Btn_PointsNumber1.Click += new System.EventHandler(this.Btn_RoundsNumber1_Click);
             // 
             // Lbl_Title
             // 
@@ -144,18 +145,29 @@
             this.Lbl_Title.Text = "Arnold Clark Hack Day 2019";
             this.Lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Lbl_Author
+            // 
+            this.Lbl_Author.AutoSize = true;
+            this.Lbl_Author.Font = new System.Drawing.Font("Caviar Dreams", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Lbl_Author.Location = new System.Drawing.Point(427, 542);
+            this.Lbl_Author.Name = "Lbl_Author";
+            this.Lbl_Author.Size = new System.Drawing.Size(161, 21);
+            this.Lbl_Author.TabIndex = 16;
+            this.Lbl_Author.Text = "Dawid Kubiak 2019";
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.Lbl_Author);
             this.Controls.Add(this.Btn_Quit);
             this.Controls.Add(this.Btn_Instructions);
             this.Controls.Add(this.Lbl_EnterName);
             this.Controls.Add(this.TxtBox_Name);
-            this.Controls.Add(this.Btn_RoundsNumber5);
-            this.Controls.Add(this.Btn_RoundsNumber3);
-            this.Controls.Add(this.Lbl_RoundsNumber);
-            this.Controls.Add(this.Btn_RoundsNumber1);
+            this.Controls.Add(this.Btn_PointsNumber5);
+            this.Controls.Add(this.Btn_PointsNumber3);
+            this.Controls.Add(this.Lbl_PointsNumber);
+            this.Controls.Add(this.Btn_PointsNumber1);
             this.Controls.Add(this.Lbl_Title);
             this.Name = "MainMenu";
             this.Size = new System.Drawing.Size(600, 600);
@@ -171,10 +183,11 @@
         private System.Windows.Forms.Button Btn_Instructions;
         private System.Windows.Forms.Label Lbl_EnterName;
         private System.Windows.Forms.TextBox TxtBox_Name;
-        private System.Windows.Forms.Button Btn_RoundsNumber5;
-        private System.Windows.Forms.Button Btn_RoundsNumber3;
-        private System.Windows.Forms.Label Lbl_RoundsNumber;
-        private System.Windows.Forms.Button Btn_RoundsNumber1;
+        private System.Windows.Forms.Button Btn_PointsNumber5;
+        private System.Windows.Forms.Button Btn_PointsNumber3;
+        private System.Windows.Forms.Label Lbl_PointsNumber;
+        private System.Windows.Forms.Button Btn_PointsNumber1;
         private System.Windows.Forms.Label Lbl_Title;
+        private System.Windows.Forms.Label Lbl_Author;
     }
 }

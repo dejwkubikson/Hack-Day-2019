@@ -13,7 +13,7 @@ namespace HackDay
              get; set;
          }
 
-        public static int numberOfRounds
+        public static int pointsToWin
         {
             get; set;
         }

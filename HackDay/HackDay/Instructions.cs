@@ -17,7 +17,7 @@ namespace HackDay
             InitializeComponent();
         }
 
-        // Main Menu button
+        // 'Main Menu' button
         private void Btn_MainMenu_Click(object sender, EventArgs e)
         {
             // Create new main menu controls
